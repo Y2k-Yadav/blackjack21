@@ -39,9 +39,7 @@ def cal_score(user,computer):
 cards=[11,1,2,3,4,5,6,7,8,9,10,10,10,10]
 user=[]
 computer=[]
-user.append(deal_card(cards))
-# user.append(11)
-# user.append(4)
+user.append(deal_card(cards))
 user.append(deal_card(cards))
 computer.append(deal_card(cards))
 computer.append(deal_card(cards))
